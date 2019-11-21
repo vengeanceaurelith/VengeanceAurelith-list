@@ -806,7 +806,7 @@
 	},
 	{
 		"abr": "gold",
-		"price": 17,
+		"price": -10,
 		"category": "Raw resources",
 		"defname": "Gold"
 	},
@@ -1688,7 +1688,7 @@
 	},
 	{
 		"abr": "silver",
-		"price": 2,
+		"price": -10,
 		"category": "Raw resources",
 		"defname": "Silver"
 	},
