@@ -200,7 +200,7 @@
 	},
 	{
 		"abr": "bionicheart",
-		"price": 1383,
+		"price": -10,
 		"category": "",
 		"defname": "BionicHeart"
 	},
@@ -218,7 +218,7 @@
 	},
 	{
 		"abr": "bionicstomach",
-		"price": 1308,
+		"price": -10,
 		"category": "",
 		"defname": "BionicStomach"
 	},
@@ -1508,7 +1508,7 @@
 	},
 	{
 		"abr": "prostheticheart",
-		"price": 358,
+		"price": -10,
 		"category": "",
 		"defname": "SimpleProstheticHeart"
 	},
