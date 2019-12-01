@@ -223,7 +223,7 @@
 	{
 		"abr": "dropraid",
 		"price": 500,
-		"karmatype": "Good"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "sapperraid",
@@ -238,7 +238,7 @@
 	{
 		"abr": "mechanoidraid",
 		"price": 2500,
-		"karmatype": "Good"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "infestation",
