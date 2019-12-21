@@ -111,6 +111,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "animaltame",
+		"price": 150,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "resourcepodcrash",
 		"price": 1000,
 		"karmatype": "Good"
@@ -136,11 +141,6 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "maninblack",
-		"price": 1500,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "madanimal",
 		"price": 500,
 		"karmatype": "Bad"
@@ -163,6 +163,11 @@
 	{
 		"abr": "herdmigration",
 		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "farmanimals",
+		"price": 400,
 		"karmatype": "Good"
 	},
 	{
@@ -282,12 +287,12 @@
 	},
 	{
 		"abr": "trait",
-		"price": 2500,
+		"price": 2000,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "removetrait",
-		"price": 2500,
+		"price": 2000,
 		"karmatype": "Neutral"
 	},
 	{
@@ -318,11 +323,6 @@
 	{
 		"abr": "torytalkervote",
 		"price": 500,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "hodlbotvote",
-		"price": 2000,
 		"karmatype": "Neutral"
 	}
 	],
