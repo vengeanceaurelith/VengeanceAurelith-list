@@ -1,0 +1,1048 @@
+{
+	"traits":[
+	{
+		"Trait": "Achillean",
+		"Description": "{PAWN_nameDef} is said to have been dipped in the river of death, {PAWN_pronoun} seems invulnerable in battle.",
+		"Stats": "Immunity Gain Speed +100%<br>Move Speed +50%<br>Armor - Blunt +80%<br>Armor Sharp +80%<br><br>Melee +2<br>Shooting +2",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Aesthete",
+		"Description": "[PAWN_nameDef] loves beautiful things, and really cares about how [PAWN_possessive] environment looks.",
+		"Stats": "",
+		"Conflicts": "Ascetic"
+	},
+	{
+		"Trait": "AnimalFriend",
+		"Description": "Tame and train animals is easy for [PAWN_nameDef]. [PAWN_pronoun] is also good at gathering resources from animals. [PAWN_pronoun] doesn't mind living in the wild.",
+		"Stats": "Tame Animal Chance +25%<br>Train Animal Speed + 25%<br>Animal Gather Speed +25%<br>Animal Gather Yield +15%<br><br>Animals +1",
+		"Conflicts": "Greedy"
+	},
+	{
+		"Trait": "AnimalHater",
+		"Description": "[PAWN_nameDef] just isn't an \"animal person.\" [PAWN_pronoun] doesn't like animals, and for the record, they don't seem to much like [PAWN_objective], either.",
+		"Stats": "Animal Gather Speed -10%<br>Animal Gather Yield -20%<br>Tame Animal Chance -40%<br>Train Animal Chance -40%<br><br>Animals -4",
+		"Conflicts": "AnimalLover"
+	},
+	{
+		"Trait": "AnimalLover",
+		"Description": "[PAWN_nameDef] loves animals. [PAWN_pronoun] doesn't feel quite the same about people, though.",
+		"Stats": "Animal Gather Speed +10%<br>Animal Gather Yield +20%<br>Tame Animal Chance +40%<br>Train Animal Chance +40%<br>Social Impact -40%<br><br>Animals +4<br>Social -2",
+		"Conflicts": "AnimalHater<br>Butcher"
+	},
+	{
+		"Trait": "Aphrodite'sGrace",
+		"Description": "So wondrous is {PAWN_nameDef} to behold that one look can inspire tears, desire, jealousy, and love.",
+		"Stats": "Negotiation Ability +100%<br>Social Impact +100%<br>TRade Price Improvement +100%<br>Armor - Blunt +100%<br>Armor - Sharp +100%<br><br>Social +8",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Architect",
+		"Description": "<TBD>",
+		"Stats": "Construction +3<br><br>Construction Speed +50%<br>Smoothing Speed +50%<br>Repair Success Chance +25%<br>Construct Success Chance +25%<br>Rest Rate Multiplier -5%<br>Construction Speed x120%<br>Smoothing Speed x120%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Ares'Wrath",
+		"Description": "Feared by {PAWN_objective} enemies and worshiped by warriors, {PAWN_nameDef} is a bloodthirsty embodiment of war.",
+		"Stats": "Shooting Accuracy Pawn +100%<br>Move Speed +50%<br>Melee Hit Chance +100%<br>Armor - Blunt +100%<br> Armor - Sharp +120%<br><br>Melee +8",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Artemis'Blessing",
+		"Description": "{PAWN_nameDef}'s natural instinct to protect and nurture the people led {PAWN_pronoun} to champion the hunt.",
+		"Stats": "Shooting Accuracy Pawn +100%<br>Aiming Time -1<br>Butchery Speed +100%<br>Cooking Speed +100%<br>Armor - Blunt +100%<br>Armor - Sharp +120%<br>Foraged Food Amount +1.00<br><br>Shooting +8",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Athletic",
+		"Description": "{PAWN_nameDef} has honed {PAWN_possessive} mind and body for most of {PAWN_possessive} life.",
+		"Stats": "Move Speed +35%<br>Global Work Speed +25%<br>Aiming Time -10%<br>Shooting Accuracy Pawn +10%<br><br>Melee +2<br>Shooting +2<br>Construction +1",
+		"Conflicts": "Overweight"
+	},
+	{
+		"Trait": "Awkward",
+		"Description": "The elephant in the room is named {PAWN_nameDef}.",
+		"Stats": "Social Impact -20%",
+		"Conflicts": "MelodicVoice<br>Tucker"
+	},
+	{
+		"Trait": "Ayi'sGuide",
+		"Description": "<TBD>",
+		"Stats": "Cooking Speed +30%<br>Food Poison Chance -20%<br>Drug Cooking Speed +30%<br>Mental Break Threshold +5%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "BadFortune",
+		"Description": "<TBD>",
+		"Stats": "Repair Success Chance -30%<br>Construct Success Chance -30%<br>Animal Gather Yield -30%<br>Plant harvest Yield -30%<br>Food Poison Chance +600%<br>Medical Surgery Success Chance -30%",
+		"Conflicts": "GoodFortune"
+	},
+	{
+		"Trait": "Bear",
+		"Description": "[PAWN_nameDef] is the person on the top of the food chain. The place where ordinary people can't hold on for one day is the perfect stage for [PAWN_objective] to show [PAWN_possessive] survival techniques.",
+		"Stats": "Shooting +1<br>Melee +1<br>Medical +1<br><br>Move Speed +0.35<br>Toxic Sensitivity -55%<br>Immunity Gain Speed +75%<br>Minimum Comfortable Temperature -27.0F<br>Maximum Comfortable Temperature +9.0F<br>Foraged Food Amount +0.50,br>Hunting Stealh +30%<br>Hunger Rate Multiplier +60%<br><br>Carrying Capacity x150%<br>Foraged Food Amount x125%",
+		"Conflicts": "SurvivalExpert"
+	},
+	{
+		"Trait": "Blacksmith",
+		"Description": "[PAWN_nameDef] is good at making weapons and equipment.",
+		"Stats": "Smithing Speed +25%<br>Mechanoid Disassembly Speed +25%<br>Mechanoid Disassembly Efficiency +10%<br>Carrying Capacity +15<br><br>Crafting +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "BornLeader",
+		"Description": "<TBD>",
+		"Stats": "Social +1<br>Construction +1<br>Crafting +1<br>Crafting +1<br>Intellectual +1<br><br>Permanent Mood Effect +14<br>Aiming Time -25%<br>Moving Speed +0.50<br>Social Impact +50%<br>Trade Price Improvement +10%<br>Negotiation Ability +50%<br> Medical Tend Quality +50%<br>Construction Speed +50%<br>Smithing Speed +50%<br>Tailoring Speed +50%<br>Research Speed +50%<br><br>Social Impact x120%",
+		"Conflicts": "CoolHeaded<br>Dokuzetu<br>Mukuchi<br>Wimp<br>Yandere"
+	},
+	{
+		"Trait": "BornWarrior",
+		"Description": "PAWN_nameDef] was born in a harsh environment. [PAWN_pronoun] is adept at fighting because of [PAWN_possessive] special physique.",
+		"Stats": "Move Speed x125%<br>Melee Hit Chance x125%<br>Melee Dodge Chance x200<br>Eating Speed x150%<br>Flammability x25%<br>Global Work Speed x90%<br><br>Melee +3",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Brave",
+		"Description": "[PAWN_nameDef] always come forward in danger. [PAWN_pronoun]'ll be so brave while wounded or in sick.",
+		"Stats": "Mental Break Threshold -4%<br>Pain Shock Threshold +10%<br>Flammability -25%",
+		"Conflicts": "Wimp<br>Pyromaniac"
+	},
+	{
+		"Trait": "BrownThumb",
+		"Description": "[PAWN_nameDef] is a terrible gardener. The only thing [PAWN_pronoun] seems able to grow is weeds.",
+		"Stats": "Plant Harvest Yield -15%<br><br>Plants -2",
+		"Conflicts": "Coordinated<br>GreenThumb<br>Inept"
+	},
+	{
+		"Trait": "Builder",
+		"Description": "[PAWN_nameDef] loved playing with construction toys as a child, and still enjoys the thrill of \"putting things together.\" But [PAWN_pronoun] tends to be a bit lost without clear instructions to follow.",
+		"Stats": "Construction Speed +20%<br>Construction Success Chance +20%<br>Sculpting Speed -40%<br><br>Artistic -2<br>Construction +2",
+		"Conflicts": "Coordinated<br>Inept"
+	},
+	{
+		"Trait": "Butcher",
+		"Description": "[PAWN_nameDef] enjoys preparing meat for cooking. [PAWN_possessive] butchering speed is greatly increased, but only if [PAWN_pronoun]'s dealing with animal corpses. [PAWN_pronoun]'s terrible with mechanoids.",
+		"Stats": "Butchery Flesh Efficiency +20%<br>Butchery Speed +40%<br>Butchery Mechanoid Efficiency -20%<br>Butchery Mechanoid Speed -40%<br><br>Cooking +2",
+		"Conflicts": "AnimalLover<br>Coordinated<br>Inept"
+	},
+	{
+		"Trait": "Capricious",
+		"Description": "<TBD>",
+		"Stats": "Mental Break Threshold +9%<br>Social Impact x90%<br>Pain Shock Threshold x80%",
+		"Conflicts": "Mukuchi"
+	},
+	{
+		"Trait": "CarefulShooter",
+		"Description": "[PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy.",
+		"Stats": "Aiming Time +25%<br>Shooting Accuracy Parn +3",
+		"Conflicts": "Brawler<br>CranialNervePalsy<br>Deadshot<br>Eagle-Eyed<br>Trigger-Happy"
+	},
+	{
+		"Trait": "CarefulSurgeon",
+		"Description": "{PAWN_nameDef} takes Medical very seriously. {PAWN_pronoun} wants to do no harm and isn't afraid to take longer to do the job right.",
+		"Stats": "Medical Operation Speed +20%<br>Medical Tend Speed +20%<br>Medical Surgery Success Chance +60%<br>Medical Tend Quality +30%<br><br>Medical +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Cass'sHandbook",
+		"Description": "<TBD>",
+		"Stats": "Construction Speed +30%<br>Plant Work Speed +30%<br>Mining Speed +30%<br>Shooting Accuracy -2.0",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Charismatic",
+		"Description": "{PAWN_nameDef} has a shining personality. {PAWN_possessive} words can get through to others more than usual.",
+		"Stats": "Social Impact +50%<br>Trade Price Improvement +20%<br><br>Social +4",
+		"Conflicts": "Petty<br>Psychopath"
+	},
+	{
+		"Trait": "ChildOfNatue",
+		"Description": "<TBD>",
+		"Stats": "Global Learning Faction +100%<br>Plant Work Speed +70%<br>Plant Harvest Yield +50%<br>Foraged Food Amount +0.7<br>Animal Gather Speed +70%<br>Animal Gather Yield +50%<br>Shooting Accuracy -3.0<br><br>Global Work Speed x125%<br>Shooting Accuracy x135%<br>Pain Shock Threshold x50%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Claustrophobic",
+		"Description": "[PAWN_nameDef] is claustrophobic. [PAWN_pronoun] is terrified of tight spaces, and thus is not a very competent miner.",
+		"Stats": "Mining Speed -20%<br>Mining Yield -20%<br><br>Mining -2",
+		"Conflicts": "Coordinated<br>Inept<br>Rockhound"
+	},
+	{
+		"Trait": "Clean",
+		"Description": "{PAWN_nameDef} is fastidious to a fault.",
+		"Stats": "Global Work Speed -25%<br>Food Poison Chance -50%<br>Immunity Gain Speed +20%<br>Medical Surgery Success Chance +20%<br>Medical Tend Quality +20%<br>Medical Operation Speed +20%<br>Medical Tend Speed +20%<br><br>Cooking +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "ColdLover",
+		"Description": "[PAWN_nameDef] loves colder temperatures. [PAWN_pronoun]'ll complain less than others when it's chilly, but will whine more when it's hot.",
+		"Stats": "Maximum Comfortable Temperature -3.0F<br>Minimum Comfortable Temperature -5.0F",
+		"Conflicts": "HeatLover"
+	},
+	{
+		"Trait": "CombatExpert",
+		"Description": "[PAWN_nameDef] is so flexible that [PAWN_pronoun] fights well. [PAWN_pronoun]'ll be so brave while wounded.",
+		"Stats": "Move Speed +0.10<br>Melee Hit Chance +1.0<br>Melee Dodge Chance +5.0<br>Pain Shock Threshold +10%<br><br>Melee +1",
+		"Conflicts": "Wimp"
+	},
+	{
+		"Trait": "Commander",
+		"Description": "{PAWN_nameDef} is an effective leader in ranged combat. Colonists around {PAWN_nameDef} have better aim.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Conductor",
+		"Description": "{PAWN_nameDef} leads the movement of others well. Colonists around {PAWN_nameDef} move faster.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Confident",
+		"Description": "{PAWN_nameDef} is confident that everything will work out for the best.",
+		"Stats": "Mental Break Threshold -6%<br><br>Social +2",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "ConsummatCraftsman",
+		"Description": "<TBD>",
+		"Stats": "Crafting +3<br><br>Smithing Speed +50%<br>Tailoring Speed +50%<br>Mechanoid Disassembly Speed +50%<br>Mechanoid Disassembly Efficiency +20%<br>Social Impact -30%<br>Smithing Speed x120%<br>Tailoring Speed x120%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "CoolHeaded",
+		"Description": "<TBD>",
+		"Stats": "Shooting Accuracy x120%<br>Psychic Sensitivity x0%",
+		"Conflicts": "BornLeader<br>Brawler<br>Dokuzetu<br>Enthusiasm<br>Genkisa<br>Harakuro<br>Jealous<br>Kind<br>Psychopath<br>WarriorOfTheSun<br>Yandere"
+	},
+	{
+		"Trait": "Coordinated",
+		"Description": "[PAWN_nameDef] is unusually coordinated, and good at most any sort of skilled labor.",
+		"Stats": "Global Work Speed +20%<br>Animal Gather Speed +10%<br>Animal Gather Yield +10%<br>Butchery Flesh Efficiency +10%<br>Butchery Speed +10%<br>Butchery Mechanoid Efficiency +10%<br>Butchery Mechanoid Speed +10%<br>Construction Speed +10%<br>Construction Success Chance +10%<br>Cooking Speed +10%<br>Repair Success Chance Success Chance +10%<br>Food Poison Chance -10%<br>Mining Speed +10%<br>Mining Yield +10%<br>Plant Harvest Yield +10%<br>Plant Work Speed +10%<br>Sculpting Speed +10%<br>Smithing Speed +10%<br>Tailoring Speed +10%<br><br>Artistic +2<br>Construction +2<br>Cooking +2<br>Crafting +2<br>Mining +2",
+		"Conflicts": "Building<br>Butcher<br>Claustrophobic<br>Gourmet<br>Inept<br>Inventot<br>Perfectionist<br>Rockhound<br>Savant"
+	},
+	{
+		"Trait": "Coordinator",
+		"Description": "[PAWN_nameDef] was genetically adjusted before born. [PAWN_possessive] indicators are better than ordinary people.",
+		"Stats": "Permanent Mood Effect +7<br>Move Speed +0.20<br>Mental Break Threshold -5%<br>Immunity Gain Speed +5%<br>Global Learning Factor +5%<br>Carrying Capacity +5<br>Toxic Sensitivity x95%<br>Global Work Speed x105%",
+		"Conflicts": "BodyPurist"
+	},
+	{
+		"Trait": "CoverFire",
+		"Description": "[PAWN_nameDef] is good at using long-range weapons to support [PAWN_possessive] teammates. [PAWN_pronoun]'ll be confidence if asked to carry a ranged weapon.",
+		"Stats": "Aiming Time -15%<br>Shooting Accuracy +1.0<br><br>Shooting +1",
+		"Conflicts": "Brawler"
+	},
+	{
+		"Trait": "CranialNervePalsy",
+		"Description": "[PAWN_nameDef] has a hard time seeing things clearly unless [PAWN_pronoun].",
+		"Stats": "Melee Hit Chance -4<br>Shooting Accuray Pawn -4<br>Global Work Speed -20%",
+		"Conflicts": "CarefulShooter<br>Deadshot<br>Eagle-Eyed<br>Trigger-Happy"
+	},
+	{
+		"Trait": "Deadshot",
+		"Description": "[PAWN_nameDef] knows how to handle a firearm, and can shoot both quickly and accurately.",
+		"Stats": "Aiming Time -50%<br>Shooting Accuracy Pawn +4<br><br>Shooting +4",
+		"Conflicts": "Brawler<br>CranialNervePalsy<br>CarefulShooter<br>Eagle-Eyed<br>Trigger-Happy"
+	},
+	{
+		"Trait": "DeathStare",
+		"Description": "For a long time, [PAWN_nameDef] always felt that someone was watching [PAWN_objective]. [PAWN_pronoun] thinks something is wrong.",
+		"Stats": "Mental Break Threshold +10%<br>Move Speed x130%<br>Psychic Sensitivity x160%<br>Global Learning Factor x50%<br>Research Speed x50%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Delicate",
+		"Description": "[PAWN_nameDef] was born with a soft bone and a more dexterous body. So [PAWN_pronoun] can do most of complex work besides fighting.",
+		"Stats": "Artistic +1<br>Crafting +2<br><br>Armor - Blunt + 145%<br>Sculpting Speed +20%<br>Tailoring Speed +20%<br>Medical Operation Speed +20%<br>Medical Surgery Success Chance +25%<br>Mass x90%<br>Pain Shock Threshold x40%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Dexterous",
+		"Description": "{PAWN_nameDef} demonstrates neat skill, especially with {PAWN_possessive} hands.",
+		"Stats": "Global Work Speed +25%<br>Aiming Time -10%<br><br>Artistic +2<br>Crafting +2",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "DiligentFighter",
+		"Description": "<TBD>",
+		"Stats": "Melee +2<br><br>Global Work Speed +30%<br>Move Speed +1.00<br>Melee Hit Chance +4.0<br>Melee Dodge Chance +8.0<br>Armor - Blunt +140%<br>Armor - Sharp +90%<br>Immunity Gain Speed +30%<br>Flammability -100%<br>Social Impact +40%<br>Pain Shock Threshold +15%<br>Negotiation Ability -50%",
+		"Conflicts": "Wimp"
+	},
+	{
+		"Trait": "Diplomat",
+		"Description": "PAWN_nameDef] knows how to grease the wheels of diplomacy.",
+		"Stats": "Negotiation Ability +15%<br>Social Impact +20%<br>Social +2",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>MasterDiplomat<br>Uncouth"
+	},
+	{
+		"Trait": "Dokuzetu",
+		"Description": "<TBD>",
+		"Stats": "Social +2<br><br>Trade Price Improvement +5%<br>Negotiation Ability +30%<br><br>Global Work Speed x110%<br>Mass x95%",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>Ascetic<br>BodyPurist<br>BornLeader<br>CoolHeaded<br>CreepyBreathing<br>Jealous<br>Mukuchi"
+	},
+	{
+		"Trait": "DoomsdayBoxer",
+		"Description": "<TBD>",
+		"Stats": "Melee +2<br><br>Melee Hit Chance +3.0<br>Melee Dodge Chance +6.0<br>Armor - Sharp +90%<br>Mental Break Threshold -10%<br>Toxic Sensitivity -60%<br>Flammability -75%",
+		"Conflicts": "Wimp"
+	},
+	{
+		"Trait": "DrillingExpert",
+		"Description": "<TBD>",
+		"Stats": "Mining +3<br><br>Mining Speed +50%<br>Mining Yield +25%<br>Psychic Sensitivity -40%<br>Carrying Capacity +50<br>Social Impact -15%<br><br>Mining Speed x125%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "DropDeadGorgeous",
+		"Description": "<TBD>",
+		"Stats": "",
+		"Conflicts": "Beautiful<br>Pretty<br>StaggeringlyUgly<br>Ugly"
+	},
+	{
+		"Trait": "Dunce",
+		"Description": "[PAWN_nameDef] is a bit of a dunce, and learns at a slower rate than others.",
+		"Stats": "Global Learning Factor -25%<br>Research Speed -20%<br><br>Intellectual -4",
+		"Conflicts": "TooSmart<br>FastLearner<br>Inventor<br>Savant"
+	},
+	{
+		"Trait": "Eagle-Eyed",
+		"Description": "[PAWN_nameDef] has a keen eye, and can quickly spot targets.",
+		"Stats": "Melee Hit Chance +1<br>Shooting Accuracy Pawn +5<br><br>Shooting +2",
+		"Conflicts": "CarefulShooter<br>CranialNervePalsy<br>Deadshot<br>Trigger-Happy"
+	},
+	{
+		"Trait": "Earnest",
+		"Description": "[PAWN_nameDef] is focused on [PAWN_possessive] work. [PAWN_possessive] efficiency is very high.",
+		"Stats": "Global Work Speed +25%<br>Global Learning Factor +10%<br>Aiming Time +15%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Eccentric",
+		"Description": "{PAWN_nameDef} Acts abnormally, probably due to their oddly high intelligence. {PAWN_pronoun} often makes a larger impact socially... For better or worse. {PAWN_nameDef} is so out of the social loop, {PAWN_pronoun} doesn't realise when {PAWN_pronoun} is being insulted.",
+		"Stats": "Social Impact +50%<br><br>Intellectual +4<br>Social -4",
+		"Conflicts": "Charismatic"
+	},
+	{
+		"Trait": "EccentricArtist",
+		"Description": "{PAWN_nameDef} is an eccentric artist. {PAWN_pronoun} has an affinity for the arts, {PAWN_pronoun} often gets lost in {PAWN_possessive} work and forget to take care of {PAWN_objective}self.",
+		"Stats": "Sculpting Speed +50%<br>Toxic Sensitivity +10%<br>Immunity Gain Speed -10%<br> Psychic Sensitivity +10% Mental Break Threshold +10%<br><br>Artistic +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "EfficientBuilder",
+		"Description": "{PAWN_nameDef} doesn't like to waste materials. {PAWN_pronoun} takes great care in {PAWN_possessive} work.",
+		"Stats": "Construction Speed -10%<br>Construction Success Chance +150%<br><br>Construction +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Elegant",
+		"Description": "<TBD>",
+		"Stats": "Social +2<br><br>Social Impact +35%<br>Global Work Speed +10%<br>Eating Speed -20%",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>Bloodlust<br>Brawler<br>CreepyBreathing"
+	},
+	{
+		"Trait": "Enthusiasm",
+		"Description": "[PAWN_nameDef] is a friendly and warm person. Everyone thinks that chatting with [PAWN_objective] is very happy.",
+		"Stats": "Permanent Mood Effect +5<br>Social Impact +25%<br>Negotiation Ability +25%",
+		"Conflicts": "CoolHeaded<br>Psychopath"
+	},
+	{
+		"Trait": "ExcellentNursing",
+		"Description": "[PAWN_nameDef] is good at nursing. [PAWN_pronoun] can keep calm beside the corpse.",
+		"Stats": "Medical Tend Quality +25%<br>Medical Tend Speed +30%<br>Social Impact +15%<br><br>Medical +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Extraordinary",
+		"Description": "[PAWN_nameDef] is a famous artist. [PAWN_pronoun] enjoys the feeling of freedom that comes from being nude.However, [PAWN_pronoun] can't endure too much pain.",
+		"Stats": "Artistic +3<br><br>Sculpting Speed +50%<br>Psychic Sensitivity +20%<br><br>Global Work Speed x110%<br>Sculpting Speed x120%<br>Pain Shock Threshold x60%",
+		"Conflicts": "Nudist"
+	},
+	{
+		"Trait": "Farmer",
+		"Description": "[PAWN_nameDef] is good at farming and harvesting crops. [PAWN_pronoun] doesn't mind eating on the ground.",
+		"Stats": "Plant Work Speed +25%<br>Plant Harvest Yield<br>Foraged Food Amount +0.25<br><br>Plants +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Fast Miner",
+		"Description": "{PAWN_nameDef} knows how to exploit the cleavage of rocks. {PAWN_pronoun} doesn't understand why plants are so much more fragile though.",
+		"Stats": "Mining Speed +50%<br>Smoothing Speed +50%<br>Plant Harvest Yield -75%<br><br>Mining +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Funny",
+		"Description": "[PAWN_nameDef] is very humorous. [PAWN_possessive] jokes make everyone happy. [PAWN_pronoun] will be kind to the disfigured and tolerate unfriendly words.",
+		"Stats": "Social Impact +23.33%<br>Negotiation Ability +23.33%<br>Mental Break Threshold -9%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "FutureTechnologyAdviser",
+		"Description": "<TBD>",
+		"Stats": "Research Speed x30%<br>Rest Rate Multiplier +15%",
+		"Conflicts": "FutureTechnologyChairman<br>FutureTechnologyPariah"
+	},
+	{
+		"Trait": "FutureTechnologyChairman",
+		"Description": "<TBD>",
+		"Stats": "Global Work Speed +30%<br>Mental Break Threshold +7%",
+		"Conflicts": "BodyPurist<br>FutureTechnologyAdviser<br>FutureTechnologyPariah<br>Transhumanist"
+	},
+	{
+		"Trait": "FutureTechnologyPariah",
+		"Description": "<TBD>",
+		"Stats": "Unskilled Labor Speed +30%<br>Rest Rate Multiplier +15%",
+		"Conflicts": "FutureTechnologyAdviser<br>FutureTechnologyChairman"
+	},
+	{
+		"Trait": "Gaoshi'sBlessing",
+		"Description": "One day, [PAWN_nameDef] was chosen by an unusual soul.[PAWN_pronoun] got the relevant abilities and shortcomings in this way.",
+		"Stats": "Move Speed +0.25<br>Immunity Gain Speed +25%<br>Toxic Sensitivity -25%<br>Social Impact -20%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Genius",
+		"Description": "<TBD>",
+		"Stats": "Intellectual +3<br>Research Speed +50%<br>Drug Synthesis Speed +50%<br>Global Learning Factor +50%<br>Global Work Speed +10%<br>Psychic Sensitivity +50%<br><br>Research Speed x125%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Genius Researcher",
+		"Description": "Strange new ideas just appear in the mind of {PAWN_nameDef}. Researching new technology comes easily to {PAWN_nameDef}, but {PAWN_pronoun} always seems distracted.",
+		"Stats": "Research Speed +70%<br>Global Work Speed -20%<br>Move Speed -10%<br>Psychic Sensitivity +10%<br>Mental Break Threshold +10%<br><br>Intellectual +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Genkisa",
+		"Description": "<TBD>",
+		"Stats": "Social Impact +20%<br>Move Speed +0.35<br>Rest Rate Multiplier +25%<br><br>Global Work Speed x110%<br>Mass x95%",
+		"Conflicts": "CoolHeaded<br>Harakuro<br>Jealous<br>Mukuchi<br>Psychopath<br>Somnolence"
+	},
+	{
+		"Trait": "Glutton",
+		"Description": "[PAWN_nameDef] devours [PAWN_possessive] meals much faster than others.",
+		"Stats": "Eating Speed +25%",
+		"Conflicts": "Nibbler"
+	},
+	{
+		"Trait": "GoodCooking",
+		"Description": "[PAWN_nameDef] is good at cooking.",
+		"Stats": "Cooking Speed +25%<br>Food Poison Chance -10%<br>Butchery Speed +25%<br><br>Cooking +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "GoodFortune",
+		"Description": "<TBD>",
+		"Stats": "Repair Success Chance +30%<br>Construct Success Chance +30%<br>Animal Gather Yield +30%<br>Plant Harvest Yield +30%<br>Food Poison Chance -30%<br>Immunity Gain Speed +10%",
+		"Conflicts": "BadFortune"
+	},
+	{
+		"Trait": "Gourmet",
+		"Description": "[PAWN_nameDef] has a passion for food preparation. [PAWN_possessive] culinary creations are quite tasty, but [PAWN_pronoun] tends to take a while getting them \"just right.\"",
+		"Stats": "Cooking Speed -20%<br>Food Poison Chance -40%<br><br>Cooking +4",
+		"Conflicts": "Coordinated<br>Inept"
+	},
+	{
+		"Trait": "GreenThumb",
+		"Description": "[PAWN_nameDef] is a great gardener. The only thing [PAWN_pronoun] is a greener world.",
+		"Stats": "Plant Harvest Yield +15%<br>Plant Work Speed +15%<br><br>Plants +2",
+		"Conflicts": "BrownThumb<br>Coordinated<br>Inept<br>Rockhound"
+	},
+	{
+		"Trait": "GreenestThumb",
+		"Description": "{PAWN_nameDef} has a passion for gardening. {PAWN_pronoun} knows exactly what a plant needs to grow happily.",
+		"Stats": "Plant Work Speed +50%<br>Plant Harvest Yield +150%<br><br>Plants +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Haggler",
+		"Description": "[PAWN_nameDef] likes to haggle, and isn't bad at it. [PAWN_pronoun] tends to get better prices than most people.",
+		"Stats": "Trade Price Improvement +20%<br>Social +2",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>MasterTrader<br>Sucker"
+	},
+	{
+		"Trait": "Handyman",
+		"Description": "[PAWN_nameDef] is good at working in unskilled jobs.",
+		"Stats": "Unskilled Labor Speed +25%<br>Carry Capacity +25",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Harakuro",
+		"Description": "<TBD>",
+		"Stats": "Social +2<br>Social Impact +15%<br>Trade Price Improvement +8%<br><br>Global Work Speed x110%<br>Research Speed x115%<br>Mass x95%",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>BodyPurist<br>CoolHeaded<br>CreepyBreathing<br>Genkisa<br>Jealous<br>Mukuchi<br>Tsundere<br>Transhumanist"
+	},
+	{
+		"Trait": "HeatLover",
+		"Description": "[PAWN_nameDef] loves the heat. [PAWN_pronoun]'ll complain less than others when it's hot, but will whine more when it's cold.",
+		"Stats": "Maximum Comfortable Temperature +5.0F<br>Minimum Comfortable Temperature +3.0F",
+		"Conflicts": "ColdLover"
+	},
+	{
+		"Trait": "Herculean",
+		"Description": "Brave {PAWN_nameDef}, born with impossible strength and force of will.",
+		"Stats": "Mental Break Threshold -1<br>Carrying Capacity +150<br>Armor - Blunt +50%<br>Armor - Sharp + 70%<br><br>Melee +6",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Hermit",
+		"Description": "{PAWN_nameDef} prefers being solitary. {PAWN_pronoun} is better at working with plants anyways.",
+		"Stats": "Plant Harvest Yield +15%<br>Social Impact -50%<br><br>Plants +4<br>Social -4",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Hunter",
+		"Description": "<TBD>",
+		"Stats": "Shooting +1<br>Animals +1<br><br>Hunting Stealth +15%<br>Shooting Accuracy +1.5",
+		"Conflicts": "Brawler"
+	},
+	{
+		"Trait": "Imhotep'sWisdom",
+		"Description": "{PAWN_nameDef} sends to sleep those who suffer, the new day bringing good health to them.",
+		"Stats": "Medical Tend Speed +100%<br>Medical Operation Speed +100%<br>Medical Surgery Success Chance +100%<br>Medical Tend Quality +100%<br>Armor - Blunt +100%<br> Armor - Sharp +120%<br><br>Medicince +8",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "ImpregnableDefense",
+		"Description": "<TBD>",
+		"Stats": "Melee +2<br>Armor - Blunt +50%<br>Armor - Sharp +50%<br>Armor - Heat +50%<br>Immunity Gain Speed +20%<br>Flammability -50%",
+		"Conflicts": "Wimp"
+	},
+	{
+		"Trait": "Inept",
+		"Description": "[PAWN_pronoun] means well, but [PAWN_nameDef] is uncoordinated, and just not very good at any sort of skilled labor.",
+		"Stats": "Global Work Speed -25%<br>Animal Gather Speed -20%<br>Animal Gather Yield -20%<br>Butchery Flesh Efficiency -20%<br>Butchery Speed -20%<br>Butchery Mechanoid Efficiency -20%<br>Butchery Mechanoid Speed -20%<br>Construction Speed -20%<br>Construction Success Chance -20%<br>Cooking Speed -20%<br>Repair Success Chance Success Chance -20%<br>Food Poison Chance +20%<br>Mining Speed -20%<br>Mining Yield -20%<br>Plant Harvest Yield -20%<br>Plant Work Speed -20%<br>Sculpting Speed -20%<br>Smithing Speed -20%<br>Tailoring Speed -20%<br><br>Artistic -2<br>Construction -2<br>Cooking -2<br>Crafting -2<br>Mining -2",
+		"Conflicts": "Building<br>Butcher<br>Claustrophobic<br>Coordinated<br>Gourmet<br>Inventot<br>Perfectionist<br>Rockhound<br>Savant"
+	},
+	{
+		"Trait": "Invaluable",
+		"Description": "<TBD>",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Inventor",
+		"Description": "Strange new ideas just appear in [PAWN_nameDef]'s mind. Researching new technologies comes easily to [PAWN_objective], but [PAWN_pronoun] always seems distracted.",
+		"Stats": "Research Speed +40%<br>Global Work Speed -20%<br>Move Spped -10%<br>Psychic Sensitivity +10%<br>Mental Break Threshold +10%<br><br>Intellectual +2",
+		"Conflicts": "Coordinated<br>Dunce<br>Inept"
+	},
+	{
+		"Trait": "Ironman",
+		"Description": "[PAWN_nameDef] has a high tolerance for pain.",
+		"Stats": "Pain Shock Threshold +33%",
+		"Conflicts": "LowPainTolerance<br>Tough<br>Wimp<br>Unstoppable"
+	},
+	{
+		"Trait": "KillerBody",
+		"Description": "<TBD>",
+		"Stats": "Move Speed +0.20",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Kevin'sIdeas",
+		"Description": "<TBD>",
+		"Stats": "Trade Price Improvement +5%<br>Toxic Sensitivity -30%<br>Smithing Speed +30%<br>Pain Shock Threshold -20%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "KingOfBeasts",
+		"Description": "<TBD>",
+		"Stats": "Animals +3<br><br>Tame Animal Chance +50%<br>Train Animal Chance +50%<br>Minimum Comfortable Temperature -18.0F<br><br>Tame Animal Chance x120%<br>Train Animal Chance x120%<br>Move Speed x115%<br>Global Work Speed x85%",
+		"Conflicts": "Greedy"
+	},
+	{
+		"Trait": "Lobbyist",
+		"Description": "<TBD>",
+		"Stats": "Social +3<br><br>Trade Price Improvement +20%<br>Negotiation Ability +50%<br>Social Impact +25%<br>Melee Hit Chance -3.0<br><br>Negotiation Ability x125%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "LoseQuality",
+		"Description": "<TBD>",
+		"Stats": "Melee Dodge Chance +10.0<br>Hunger Rate Multiplier x1%<br>Mass x0%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "LowImmunity",
+		"Description": "<TBD>",
+		"Stats": "Immunity Gain Speed x80%",
+		"Conflicts": "Sickly<br>Super-Immune"
+	},
+	{
+		"Trait": "LowPainTolerance",
+		"Description": "[PAWN_nameDef] will become immobilized by pain more quickly than most.",
+		"Stats": "Pain Shock Threshold -33%",
+		"Conflicts": "Ironman<br>Tough<br>Wimp<br>Unstoppable"
+	},
+	{
+		"Trait": "LovedByAnimals",
+		"Description": "{PAWN_nameDef} is loved by animals, but people don't feel quite the same.",
+		"Stats": "Train Animal Chance +50%<br>Tame Animal Chance +50%<br>Social Impact -50%<br><br>Animals +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Lumberjack",
+		"Description": "[PAWN_nameDef] is good at logging and hauling. [PAWN_pronoun] doesn't mind eating on the ground.",
+		"Stats": "Move Speed 0.15<br>Plant Work Speed +25%<br>Carrying Capacity +15",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Luminary",
+		"Description": "For whatever reason, everyone seems to really care how {PAWN_nameDef} is feeling.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "MagicGirl",
+		"Description": "[PAWN_nameDef] used to be a magical girl, but [PAWN_pronoun] could not feel the power of magic on this planet.",
+		"Stats": "Social Impact +10%<br>Move Speed +0.15<br>Pyschic Sensitivity +15%<br><br>Melee +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "MasterChef",
+		"Description": "<TBD>",
+		"Stats": "Cooking +3<br><br>Cooking Speed +50%<br>Food Poison Chance -50%<br>Butchery Efficiency +20%<br>Drug Cooking Speed +50%<br>Eating Speed -10%<br><br>Cooking Speed x120%<br>Drug Cooking Speed x120%",
+		"Conflicts": "Ascetic"
+	},
+	{
+		"Trait": "MasterDiplomat",
+		"Description": "[PAWN_nameDef] has such a way with words that [PAWN_pronoun] always manages to cool down a tense situation. [PAWN_pronoun] could talk for days and people would still listen.",
+		"Stats": "Negotiation Ability +30%<br>Social Impact +40%<br><br>Social +4",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>Diplomat<br>Uncouth"
+	},
+	{
+		"Trait": "MasterMedic",
+		"Description": "[PAWN_nameDef] has a natural aptitude for medical work. Between [PAWN_possessive] steady, skilled hands and [PAWN_possessive] inspiring bedside manner, patients in [PAWN_possessive] care will have little to fear.",
+		"Stats": "Medical Operation Speed -20%<br>Medical Surgery Success Chance +40%<br>Medical Tend Speed -20%<br>Medical Tend Quality +40%<br><br>Medical +4",
+		"Conflicts": "PoorMedic<br>SkilledMedic"
+	},
+	{
+		"Trait": "MasterTrader",
+		"Description": "[PAWN_nameDef] always gets the best deals.",
+		"Stats": "Trade Price Improvement +40%<br>Social +4",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>Haggler<br>Sucker"
+	},
+	{
+		"Trait": "MelodicVoice",
+		"Description": "{PAWN_nameDef} could talk for days on end and people would still listen to that sweet voice.",
+		"Stats": "Social Impact +40%",
+		"Conflicts": "Awkward<br>Tucker"
+	},
+	{
+		"Trait": "Mercury'sBlessing",
+		"Description": "It is said that {PAWN_nameDef} can leap the space between lightning and thunder, outfox the fox king, and reach tomorrow before the sun.",
+		"Stats": "Eating Speed +100%<br>Global Work Speed +100%<br>Global Learning Factor +100%<br>Move Speed +100%<br>Armor - Blunt + 100%<br>Armor - Sharp +120%<br><br>Intellectual +8",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "MilitarySurgeon",
+		"Description": "<TBD>",
+		"Stats": "Medical +2<br><br>Medical Tend Speed +50%<br>Medical Operation Speed +50%<br>Move Speed +0.10 Medical Tend Speed x120%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Min'sTips",
+		"Description": "<TBD>",
+		"Stats": "Social Impact +15%<br>Trade Price Improvement +5%<br>Sculpting Speed +30%<br>Global Work Speed -10%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Miner",
+		"Description": "[PAWN_nameDef] is good at digging and drilling. [PAWN_pronoun] doesn't mind eating on the ground or living in darkness.",
+		"Stats": "Mining Speed +25%<br>Mining Yield +10%<br>Carrying Capacity +25<br><br>Mining +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Morbid",
+		"Description": "Ashes to ashes and dust to dust. {PAWN_nameDef} is fascinated by corpses and decay.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Mukuchi",
+		"Description": "<TBD>",
+		"Stats": "Mental Break Threshold -50%<br>Global Learning Factor +30%<br><br>Psychic Sensitivity x0%<br>Global Work Speed x115%<br>Mass x95%",
+		"Conflicts": "AnnoyingVoice<br>Bloodlust<br>BornLeader<br>Cannibal<br>Capricious<br>CoolHeaded<br>CreepyBreathing<br>Dokuzetu<br>Genkisa<br>Harakuro<br>Jealous<br>Nudist<br>Psychopath<br>Tsundere<br>Yandere"
+	},
+	{
+		"Trait": "Nearsighted",
+		"Description": "{PAWN_nameDef} has a hard time seeing things clearly unless {PAWN_pronoun} is relatively close to it.",
+		"Stats": "Global Work Speed -10%<br>Shooting Accuracy Pawn -25%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "NeatFreak",
+		"Description": "[PAWN_nameDef] is fastidious to a fault.",
+		"Stats": "Global Work Speed -20%<br>Food Poison Chance -50%<br>Immunity Gain Speed +20%<br>Medical Surgery Success Chance +20%<br>Medical Tend Quality +20%<br>Medical Operation Speed -10%<br>Medical Tend Speed -10%<br><br>Cooking +2",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "NiceBody",
+		"Description": "<TBD>",
+		"Stats": "Move Speed +0.10",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "NiceVoice",
+		"Description": "<TBD>",
+		"Stats": "Social Impact +10%",
+		"Conflicts": "AnnoyingVoice"
+	},
+	{
+		"Trait": "Nibbler",
+		"Description": "[PAWN_nameDef] picks at [PAWN_possessive] food, taking extra time to finish [PAWN_possessive] meals.",
+		"Stats": "Eating Speed -25%",
+		"Conflicts": "Glutton"
+	},
+	{
+		"Trait": "Nyctophile",
+		"Description": "[PAWN_nameDef] doesn't fear the dark at all.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Nyctophobe",
+		"Description": "[PAWN_nameDef] is really afraid of the dark.",
+		"Stats": "",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Odyssean",
+		"Description": "Craftier by far than any mortal man, {PAWN_nameDef} is also a very capable warrior.",
+		"Stats": "Global Learning Factor +100%<br>Shooting Accuracy Pawn +50%<br>Melee Hit Chance +50%<br><br>Melee +1<br>Shooting +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Overweight",
+		"Description": "{PAWN_nameDef} is seriously overweight. {PAWN_pronoun} moves slowly, and works even slower.",
+		"Stats": "Move Speed -30%<br>Global Work Speed -25%<br>Meat Amount +10",
+		"Conflicts": "Athletic"
+	},
+	{
+		"Trait": "Oxana'sThoughts",
+		"Description": "<TBD>",
+		"Stats": "Permanent Mood Effect -5<br>Move Speed +0.25<br>Shooting Accuracy +2<br>Global Work Speed +10%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "PeerlessImmunity",
+		"Description": "<TBD>",
+		"Stats": "Immunity Gam Speed +100%<br>Toxic Sensitivity -100%<br>Food Poison Chance +800%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Peppy",
+		"Description": "{PAWN_nameDef} is full of energy. {PAWN_pronoun} will randomly gain the Frenzy Go Inspiration, even if {PAWN_pronoun} is not happy.",
+		"Stats": "",
+		"Conflicts": "VolatileCrafter"
+	},
+	{
+		"Trait": "Perceptive",
+		"Description": "{PAWN_nameDef} has a keen eye, and can quickly spot a target.",
+		"Stats": "Shooting Accuracy Pawn +25%<br>Melee Hit Chance +10%<br><br>Shooting +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Perfectionist",
+		"Description": "[PAWN_nameDef] refuses to accept less than [PAWN_possessive] best in any endeavor, no matter how long it takes. [PAWN_pronoun]'s less likely to fail when doing something, but [PAWN_pronoun] works slowly.",
+		"Stats": "Global Work Speed -20%<br>Animal Gather Speed -10%<br>Animal Gather Yield +20%<br>Butchery Flesh Efficiency +20%<br>Butchery Speed -10%<br>Butchery Mechanoid Efficiency +20%<br>Butchery Mechanoid Speed -10%<br>Construction Speed -10%<br>Construction Success Chance +20%<br>Cooking Speed -10%<br>Repair Success Chance Success Chance +20%<br>Food Poison Chance -20%<br>Medical Operation Speed -10%<br>Medical Surgery Success Chance +20%<br>Medical Tend Quality +20%<br>Medical Tend Speed -10%<br>Mining Speed -10%<br>Mining Yield +20%<br>Plant Harvest Yield +20%<br>Plant Work Speed -10%<br>Research Speed -10%<br>Sculpting Speed -10%<br>Smithing Speed -10%<br>Tailoring Speed -10%",
+		"Conflicts": "Coordinated<br>Industriousness<br>Inept"
+	},
+	{
+		"Trait": "Persuasive",
+		"Description": "{PAWN_nameDef} is good at persuading someone to do or believe something through reasoning or the use of temptation.",
+		"Stats": "Negotiation Ability +10%<br>Social Impact +10%<br>Trade Price Improvement +5%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Pervert",
+		"Description": "{PAWN_nameDef} is an extreme pervert. {PAWN_pronoun} doesn't mind sharing a room, or streaking. It makes others feel incredibly uncomfortable.",
+		"Stats": "Social -1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Petty",
+		"Description": "{PAWN_nameDef} is overtly concerned with social hitches. {PAWN_pronoun} tends to annoy others and can't stand {PAWN_possessive} ex-lovers moving on.",
+		"Stats": "Social +2",
+		"Conflicts": "Charismatic<br>Psychopath"
+	},
+	{
+		"Trait": "Plasterer",
+		"Description": "[PAWN_nameDef] has the skill to build a house and can also make some furniture.",
+		"Stats": "Construction Speed +25%<br>Smoothing Speed +25%<br>Repair Success Chance +10%<br>Carrying Capacity +15<br><br>Construction +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "PoorMedic",
+		"Description": "Even when they have the best of intentions, some people just aren't cut out for medicine. [PAWN_nameDef] is one of those people.",
+		"Stats": "Medical Surgery Success Chance -20%<br>Medical Tend Quality -20%<br><br>Medical -2",
+		"Conflicts": "MasterMedic<br>SkilledMedic"
+	},
+	{
+		"Trait": "ProfessionalButcher",
+		"Description": "Sometimes it's hard to tell where the knife stops and {PAWN_nameDef} starts. People like to say that \"if it bleeds {PAWN_nameDef} can skin it and split it\"",
+		"Stats": "Butchery Speed +50%<br>Butchery Mechanoid Speed -50%<br><br>Cooking +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "ProfessionalDoctor",
+		"Description": "<TBD>",
+		"Stats": "Medical +3<br><br>Medical Surgery Success Chance +50%<br>Medical Tend Quality +50%<br>Medical Tend Speed +50%<br><br>Medical Tend Quality x120%<br>Medical Surgery Success Chance x120%<br>Medical Operation Speed x80%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "ProfessionalTailor",
+		"Description": "{PAWN_nameDef} likes making apparel. {PAWN_pronoun} can work wonders with a needle and thread a hammer and anvil, not so much.",
+		"Stats": "Smithing Speed -50%<br>Tailoring Speed +50%<br><br>Crafting +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "QuickLearner",
+		"Description": "{PAWN_nameDef} has always picked up skills pretty quickly.",
+		"Stats": "Global Learning Factor +25%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "RangedReaper",
+		"Description": "<TBD>",
+		"Stats": "Shooting +2<br><br>Aiming Time -70%<br>Shooting Accuracy +4.0<br>Move Speed +0.30<br>Armor - Sharp +120%<br>Mental Break Threshold -15%<br>Eating Speed +50%<br>Pain Shock Threshold +40%<br>Global Work Speed -10%",
+		"Conflicts": "Brawler<br>Wimp"
+	},
+	{
+		"Trait": "Ranger",
+		"Description": "<TBD>",
+		"Stats": "Shooting +2<br><br>Move Speed +0.45<br>Aiming Time -10%<br>Eating Speed +25%<br>Hunger Rate Multiplier -10%",
+		"Conflicts": "Brawler"
+	},
+	{
+		"Trait": "RangeTelepathy",
+		"Description": "[PAWN_nameDef] was born with excellent perception.",
+		"Stats": "Shooting +3<br><br>Move Speed +0.25<br>Aiming Time -35%<br>Hunting Stealth +50%<br>Psychic Sensitivity +30%<br><br>Shooting Accuracy Pawn x150%",
+		"Conflicts": "Brawler"
+	},
+	{
+		"Trait": "RedMoon",
+		"Description": "<TBD>",
+		"Stats": "Shooting +2<br><br>Aiming Time -30%<br>Shooting Accuracy +3.0<br>Armor - Sharp +60%<br>Mental Break Threshold -10%<br>Flammability -50%<br>Pain Shock Threshold +15%",
+		"Conflicts": "Brawler<br>Wimp"
+	},
+	{
+		"Trait": "Rockhound",
+		"Description": "[PAWN_nameDef] enjoys working with rocks. [PAWN_possessive] mining speed is increased, but [PAWN_possessive] lack of interest in other areas slows [PAWN_objective] down when doing other jobs. And [PAWN_pronoun] hates working with plants.",
+		"Stats": "Global Work Speed -20%<br>Mining Speed +40%<br>Mining Yield +20%<br>Plant Harvest Yield -50%<br>Plant Work Speed -40%<br>Smoothing Speed +40%<br><br>Crafting +2<br>Mining +4",
+		"Conflicts": "Coordinated<br>Claustrophobic<br>Inept"
+	},
+	{
+		"Trait": "Savant",
+		"Description": "[PAWN_nameDef] is a modern-day Da Vinci, with a creative mind that can grasp new ideas almost effortlessly. But [PAWN_pronoun]'s almost painfully slow when it comes to doing actual physical work.",
+		"Stats": "Global Learning Factor +80%<br>Global Work Speed -60%<br><br>Artistic +4<br>Crafting +4<br>Intellectual +4",
+		"Conflicts": "Coordinated<br>Dunce<br>FastLearner<br>Inept<br>TooSmart"
+	},
+	{
+		"Trait": "Scultpor",
+		"Description": "[PAWN_nameDef] is good at crafting art.",
+		"Stats": "Sculpting Speed +30%<br>Carrying Capacity +15<br><br>Artistic +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Seasoned",
+		"Description": "<TBD>",
+		"Stats": "Shooting +1<br>Melee +1<br>Social +1<br>Animals +1<br>Medical +1<br><br>Global Work Speed x110%<br>Psychic Sensitivity x50%<br>Flammability x75%<br>Global Learning Factor x50%",
+		"Conflicts": "Silly"
+	},
+	{
+		"Trait": "SeekNovelty",
+		"Description": "<TBD>",
+		"Stats": "Social Impact +15%<br>Mental Break Threshold -12%",
+		"Conflicts": "Psychopath<br>UniversalLove"
+	},
+	{
+		"Trait": "ShootingAmateur",
+		"Description": "{PAWN_nameDef} has never held a gun in {PAWN_objective} hands. The weight of the cold metal in {PAWN_objective} hands makes {PAWN_pronoun} shudder uncontrollably.",
+		"Stats": "Shooting Accuracy Pawn -20%<br><br>Shooting -2",
+		"Conflicts": "Brawler<br>ShootingEnthusiast<br>ShootingProfessional"
+	},
+	{
+		"Trait": "ShootingEnthusiast",
+		"Description": "{PAWN_nameDef} knows {PAWN_objective} way with a gun.",
+		"Stats": "Shooting Accuracy Pawn +20%<br><br>Shooting +2",
+		"Conflicts": "Brawler<br>ShootingAmateur<br>ShootingProfessional"
+	},
+	{
+		"Trait": "ShootingProfessional",
+		"Description": "\"My rifle is my best friend. It is my life. I must master it as I must master my life.\" - {PAWN_nameDef}, probably.",
+		"Stats": "Shooting Accuracy Pawn +40%<br><br>Shooting +4",
+		"Conflicts": "Brawler<br>ShootingAmateur<br>ShootingEnthusiast"
+	},
+	{
+		"Trait": "ShowMoe",
+		"Description": "La la la~ I just look around. ·ω·",
+		"Stats": "Move Speed +4.00<br>Armor - Blunt +150%<br>Armor - Sharp +150%<br>Armor - Heat +150%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Shrewd",
+		"Description": "[PAWN_nameDef] is clever at understanding and making judgements about a situation. Talking is [PAWN_possessive] weapon.",
+		"Stats": "Trade Price Improvement +15%<br>Social Impact +10%<br>Global Learning Factor +15%<br><br>Social +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Silly",
+		"Description": "<TBD>",
+		"Stats": "Construct Success Chance -40%<br>Animal Gather Yield -40%<br>Plant Harvest Yield -40%<br>Food Poison Chance +400%",
+		"Conflicts": "Seasoned"
+	},
+	{
+		"Trait": "SkilledMedic",
+		"Description": "[PAWN_nameDef] seems to have a knack for medical work. Patients in [PAWN_possessive] care will likely fare well.",
+		"Stats": "Medical Surgery Success Chance +20%<br>Medical Tend Quality +20%<br><br>Medical +2",
+		"Conflicts": "MasterMedic<br>PoorMedic"
+	},
+	{
+		"Trait": "SoundOfNature",
+		"Description": "<TBD>",
+		"Stats": "Social Impact +20%",
+		"Conflicts": "AnnoyingVoice"
+	},
+	{
+		"Trait": "SowerOfLife",
+		"Description": "<TBD>",
+		"Stats": "Plants +3<br><br>Plant Work Speed +50%<br>Plant Harvest Yield +25%<br>Toxic Sensitivity -50%<br>Foraged Food Amount +0.5<br><br>Plant Work Speed x125%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Space-TimeTraveler",
+		"Description": "[PAWN_nameDef] ran from other worlds. Everything has to start again in here, but the experience is still useful.",
+		"Stats": "Social Impact +25%<br>Global Learning Factor +40%<br>Research Speed +25%<br>Global Work Speed +10%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Speeding",
+		"Description": "<TBD>",
+		"Stats": "Move Speed +0.50<br>Shooting Accuracy -2.0<br>Melee Hit Chance -2.0<br><br>Move Speed x130%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Strong",
+		"Description": "[PAWN_nameDef] is a strongman. [PAWN_pronoun]can carry more and recovers faster.",
+		"Stats": "Immunity Gain Speed +15%<br>Carrying Capacity x200%<br><br>Melee +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "StrongConstitution",
+		"Description": "PAWN_nameDef]'s body is stronger than normal against diseases, pathogens and toxic fallout.",
+		"Stats": "Immunity Gain Speed +25%<br>Toxic Sensitivity -50%",
+		"Conflicts": "WeakConstitution"
+	}
+	{
+		"Trait": "Sucker",
+		"Description": "[PAWN_nameDef] just can't seem to help but get taken advantage of while trading. [PAWN_pronoun]'ll pay more than [PAWN_pronoun] should, and still think that [PAWN_pronoun] got a good deal.",
+		"Stats": "Trade Price Improvement -20%<br>Social -2",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>Haggler<br>MasterTrader"
+	},
+	{
+		"Trait": "SurvivalExpert",
+		"Description": "In order to survive, [PAWN_nameDef] can endure unimaginable difficulties. [PAWN_pronoun] adapts to different harsh conditions.",
+		"Stats": "Foraged Food Amount +0.3<br>Minimum Comfortable Temperature -54.0F<br>Maximum Comfortable Temperature +18.0F",
+		"Conflicts": "Bear<br>Jealous"
+	},
+	{
+		"Trait": "Sylvanus'Blessing",
+		"Description": "Companion to all woodland creatures, both mundane and fantastic, {PAWN_nameDef} protects and nurtures those that respect {PAWN_possessive} domain.",
+		"Stats": "Tame Animal Chance +100%<br>Train Animal Chance +100%<br>Plant Work Speed +100%<br>Plant Harvest Yield +200%<br>Armor - Blunt +100%<br>Armor - Sharp +120%<br>Foraged Food Amount +1.00<br><br>Animals +4<br>Plants +4",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Tailor",
+		"Description": "[PAWN_nameDef] is good at tailoring.",
+		"Stats": "Tailoring Speed +30%<br>Carrying Capacity +15<br><br>Crafting +1",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "TheProphet",
+		"Description": "<TBD>",
+		"Stats": "Toxic Sensitivity -75%<br>Mental Break Threshold -70%<br>Global Work Speed +75%<br>Immunity Gain Speed +60%<br>Aiming Time -80%<br>Melee Dodge Chance +13.0<br>Minimum Comfortable Temperature 162.0F<br>Maximum Comfortable Temperature +90.0F<br>Eating Speed -50%<br><br>Flammability x0%<br>Mass x88%",
+		"Conflicts": "Transhumanist"
+	},
+	{
+		"Trait": "Trigger-Happy",
+		"Description": "Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately.",
+		"Stats": "Aiming Time -50%<br>Shooting Accuracy Pawn -3",
+		"Conflicts": "Brawler<br>CranialNervePalsy<br>CarefulShooter<br>Deadshot<br>Eagle-Eyed"
+	},
+	{
+		"Trait": "Tsundere",
+		"Description": "<TBD>",
+		"Stats": "Mental Break Threshold +6%<br><br>Global Work Speed x110%<br>Unskilled Labor Speed x115%<br>Mass x95%",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>Ascetic<br>BodyPurist<br>CreepyBreathing<br>Harakuro<br>Jealous<br>Mukuchi<br>Transhumanist"
+	},
+	{
+		"Trait": "Tucker",
+		"Description": "That's a lotta graves. Lotta holes to fill. Bow-Chicka-Bow-Wow" - {PAWN_nameDef}, probably",
+		"Stats": "Social Impact +20%",
+		"Conflicts": "Awkward<br>MelodicVoice"
+	},
+	{
+		"Trait": "Uncouth",
+		"Description": "Subtlety? Diplomacy? [PAWN_nameDef] barely even understands the meaning of the words.",
+		"Stats": "Negotiation Ability -15%<br>Social Impact -20%<br><br>Social -2",
+		"Conflicts": "Abrasive<br>AnnoyingVoice<br>CreepyBreathing<br>Diplomat<br>MasterDiplomat"
+	},
+	{
+		"Trait": "UniversalLove",
+		"Description": "[PAWN_nameDef] is friendly to people who are discriminated against.",
+		"Stats": "Social Impact +30%",
+		"Conflicts": "Pyschopath<br>SeekNovelty"
+	},
+	{
+		"Trait": "Unstoppable",
+		"Description": "[PAWN_nameDef] has an exceptionally high tolerance for pain. [PAWN_pronoun] is unlikely to be immobilized by it.",
+		"Stats": "Pain Shock Threshold +65%",
+		"Conflicts": "Ironman<br>LowPainTolerance<br>Tough<br>Wimp"
+	},
+	{
+		"Trait": "VolatileCrafter",
+		"Description": "{PAWN_nameDef} is a genius crafter, and will often have creative inspiration. However, {PAWN_possessive} mind is constantly ticking, making {PAWN_nameDef} much more likely to have a mental break.",
+		"Stats": "Mental Break Threshold +20%<br><br>Artistic +3<br>Crafting +3",
+		"Conflicts": "Peppy"
+	},
+	{
+		"Trait": "Vulcan'sFire",
+		"Description": "{PAWN_nameDef} crafts with fire and forge as an artist would with paint and brush.",
+		"Stats": "Construction Success Chance +200%<br>Construction Speed +100%<br>Smithing Speed +100%<br>Smelting Speed +100%<br>Armor - Blunt +100%<br>Armor - Sharp +120%<br><br>Construction +4<br>Crafting +4",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "WarriorOfTheSun",
+		"Description": "<TBD>",
+		"Stats": "Melee +4<br><br>Armor - Blunt +100%<br>Armor - Sharp +100%<br>Armor - Heat +140%<br>Mental Break Threshold -20%<br>Pain Shock Threshold +20%<br><br>Flammability x0%<br>Melee Hit Chance x150%",
+		"Conflicts": "CoolHeaded<br>Wimp"
+	},
+	{
+		"Trait": "Watchman",
+		"Description": "<TBD>",
+		"Stats": "Move Speed +0.15",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "WeakConstitution",
+		"Description": "[PAWN_nameDef] is especially vulnerable to diseases, pathogens and toxic fallout.",
+		"Stats": "Immunity Gain Speed -25%<br>Toxic Sensitivity +50%",
+		"Conflicts": "StrongConstitution"
+	},
+	{
+		"Trait": "Whirlwind",
+		"Description": "<TBD>",
+		"Stats": "Animals +1<br>Medical +1<br><br>Move Speed +3.30<br>Toxic Sensitivity -40%<br>Tame Animal Chance +50%<br>Eating Speed +75%<br>Medical Tend Speed +60%<br>Plant Work Speed +50%<br>Shooting Accuracy -6.0<br><br>Move Speed x110%<br>Mass x90%",
+		"Conflicts": ""
+	},
+	{
+		"Trait": "Yandere",
+		"Description": "<TBD>",
+		"Stats": "Aiming Time -60%<br>Melee Dodge Chance +4.0<br>Flammability -50%<br>Psychic Sensitivity +220%,br>Mental Break Threshold<br> +12%<br>Pain Shock Threshold +70%<br><br>Move Speed x120%<br>Melee Dodge Chance x150%",
+		"Conflicts": "BornLeader<br>CoolHeaded<br>Mukuchi<br>Wimp"
+	}
+  ]
+}
