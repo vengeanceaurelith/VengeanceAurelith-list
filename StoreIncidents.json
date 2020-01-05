@@ -196,11 +196,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "party",
-		"price": 500,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "alphabeavers",
 		"price": 1000,
 		"karmatype": "Bad"
@@ -326,5 +321,5 @@
 		"karmatype": "Neutral"
 	}
 	],
-	"total": 65
+	"total": 64
 }
