@@ -935,7 +935,7 @@
 		"Description": "PAWN_nameDef]'s body is stronger than normal against diseases, pathogens and toxic fallout.",
 		"Stats": "Immunity Gain Speed +25%<br>Toxic Sensitivity -50%",
 		"Conflicts": "WeakConstitution"
-	}
+	},
 	{
 		"Trait": "Sucker",
 		"Description": "[PAWN_nameDef] just can't seem to help but get taken advantage of while trading. [PAWN_pronoun]'ll pay more than [PAWN_pronoun] should, and still think that [PAWN_pronoun] got a good deal.",
