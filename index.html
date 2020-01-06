@@ -147,6 +147,39 @@
                         </div>
                     </div>
                 </div>
+				<div class="row" ng-show='selected == 3'>
+					<div class="col-md-12">
+						<div id="traits">
+							<div class="input-group input-group-sm mb-3">
+								<div class = input-group-prepend">
+									<span class="input-group-text" id="inputGroup-sizing-sm"> Search</span>
+								</div>
+								<input type="text" class="form-control search" aria-label="Search" aria-describedby="inputGroup-sizing-sm">
+							</div>
+							<p>
+                                <button type="button" class="btn btn-primary sort" data-sort="Trait">
+                                    Trait
+                                </button>
+                                <button type="button" class="btn btn-primary sort" data-sort="Stats">
+                                    Stats
+                                </button>
+								<button type="button" class="btn btn-primary sort" data-sort="Conflicts">
+                                    Conflicts
+                                </button>
+                            </p>
+							<table class="table traits">
+								<tr>
+									<th scope="col" class="sort" data-sort="Trait">Trait</th>
+                                    <th scope="col" class="sort" data-sort="Description">Description</th>
+                                    <th scope="col" class="sort" data-sort="Stats">Stats</th>
+									<th scope="col" class="sort" data-sort="Conflicts">Conflicts</th>
+								</tr>
+								<tbody class="list">
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
         <div class="container">
