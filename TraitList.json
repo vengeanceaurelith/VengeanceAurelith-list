@@ -980,7 +980,7 @@
 	},
 	{
 		"Trait": "Tucker",
-		"Description": "That's a lotta graves. Lotta holes to fill. Bow-Chicka-Bow-Wow" - {PAWN_nameDef}, probably",
+		"Description": "That's a lotta graves. Lotta holes to fill. Bow-Chicka-Bow-Wow\" - {PAWN_nameDef}, probably",
 		"Stats": "Social Impact +20%",
 		"Conflicts": "Awkward<br>MelodicVoice"
 	},
